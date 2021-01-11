@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>/CAWCD/Datasources/Landcases</DataSourceReference>
+      <CommandText>SELECT
+  qryExportCasesInDesign.[Case Status]
+  ,qryExportCasesInDesign.[CAWCD Case Number]
+  ,qryExportCasesInDesign.[Requesting Agency or Group]
+  ,qryExportCasesInDesign.[Description and Location of Crossing Request]
+  ,qryExportCasesInDesign.[Mile Post]
+  ,qryExportCasesInDesign.[Land Specialist Assigned]
+  ,qryExportCasesInDesign.[Project Engineer Assigned]
+  ,qryExportCasesInDesign.[Inspector Assigned]
+  ,qryExportCasesInDesign.[Present Crossing Status]
+  ,qryExportCasesInDesign.[Design Status]
+  ,qryExportCasesInDesign.[Design Estimated Percent Complete]
+  ,qryExportCasesInDesign.[License Type]
+  ,qryExportCasesInDesign.[License Date Issued]
+  ,qryExportCasesInDesign.[License Expiration Date]
+  ,qryExportCasesInDesign.[Construction Estimated Percent Complete]
+FROM
+  qryExportCasesInDesign</CommandText>
+      <rd:DesignerState>
+        <QueryDefinition xmlns="http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational">
+          <SelectedColumns>
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Case Status" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="CAWCD Case Number" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Requesting Agency or Group" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Description and Location of Crossing Request" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Mile Post" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Land Specialist Assigned" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Project Engineer Assigned" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Inspector Assigned" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Present Crossing Status" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Design Status" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Design Estimated Percent Complete" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="License Type" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="License Date Issued" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="License Expiration Date" />
+            <ColumnExpression ColumnOwner="qryExportCasesInDesign" ColumnName="Construction Estimated Percent Complete" />
+          </SelectedColumns>
+        </QueryDefinition>
+      </rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="Case_Status">
+        <DataField>Case Status</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CAWCD_Case_Number">
+        <DataField>CAWCD Case Number</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Requesting_Agency_or_Group">
+        <DataField>Requesting Agency or Group</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Description_and_Location_of_Crossing_Request">
+        <DataField>Description and Location of Crossing Request</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Mile_Post">
+        <DataField>Mile Post</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Land_Specialist_Assigned">
+        <DataField>Land Specialist Assigned</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Project_Engineer_Assigned">
+        <DataField>Project Engineer Assigned</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Inspector_Assigned">
+        <DataField>Inspector Assigned</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Present_Crossing_Status">
+        <DataField>Present Crossing Status</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Design_Status">
+        <DataField>Design Status</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Design_Estimated_Percent_Complete">
+        <DataField>Design Estimated Percent Complete</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="License_Type">
+        <DataField>License Type</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="License_Date_Issued">
+        <DataField>License Date Issued</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="License_Expiration_Date">
+        <DataField>License Expiration Date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="Construction_Estimated_Percent_Complete">
+        <DataField>Construction Estimated Percent Complete</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+  <rd:ReportServerUrl>http://keith-alienware/ReportServer</rd:ReportServerUrl>
+</SharedDataSet>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>Landcases</DataSourceReference>
+      <CommandText>SELECT
+  qryExportCasesBeingAsBuilt.[Case Status]
+  ,qryExportCasesBeingAsBuilt.[CAWCD Case Number]
+  ,qryExportCasesBeingAsBuilt.[Requesting Agency or Group]
+  ,qryExportCasesBeingAsBuilt.[Description and Location of Crossing Request]
+  ,qryExportCasesBeingAsBuilt.[Mile Post]
+  ,qryExportCasesBeingAsBuilt.[Land Specialist Assigned]
+  ,qryExportCasesBeingAsBuilt.[Project Engineer Assigned]
+  ,qryExportCasesBeingAsBuilt.[Inspector Assigned]
+  ,qryExportCasesBeingAsBuilt.[Present Crossing Status]
+  ,qryExportCasesBeingAsBuilt.[As Builts Requested Date]
+  ,qryExportCasesBeingAsBuilt.[As Builts Received Date]
+  ,qryExportCasesBeingAsBuilt.[As Builts Approved Date]
+  ,qryExportCasesBeingAsBuilt.[As Builts Status]
+  ,qryExportCasesBeingAsBuilt.[As Built Comments]
+  ,qryExportCasesBeingAsBuilt.[License Type]
+  ,qryExportCasesBeingAsBuilt.[License Date Issued]
+  ,qryExportCasesBeingAsBuilt.[License Expiration Date]
+  ,qryExportCasesBeingAsBuilt.[As Builts Progress]
+FROM
+  qryExportCasesBeingAsBuilt</CommandText>
+      <rd:DesignerState>
+        <QueryDefinition xmlns="http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational">
+          <SelectedColumns>
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="Case Status" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="CAWCD Case Number" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="Requesting Agency or Group" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="Description and Location of Crossing Request" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="Mile Post" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="Land Specialist Assigned" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="Project Engineer Assigned" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="Inspector Assigned" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="Present Crossing Status" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="As Builts Requested Date" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="As Builts Received Date" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="As Builts Approved Date" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="As Builts Status" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="As Built Comments" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="License Type" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="License Date Issued" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="License Expiration Date" />
+            <ColumnExpression ColumnOwner="qryExportCasesBeingAsBuilt" ColumnName="As Builts Progress" />
+          </SelectedColumns>
+        </QueryDefinition>
+      </rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="Case_Status">
+        <DataField>Case Status</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CAWCD_Case_Number">
+        <DataField>CAWCD Case Number</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Requesting_Agency_or_Group">
+        <DataField>Requesting Agency or Group</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Description_and_Location_of_Crossing_Request">
+        <DataField>Description and Location of Crossing Request</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Mile_Post">
+        <DataField>Mile Post</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Land_Specialist_Assigned">
+        <DataField>Land Specialist Assigned</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Project_Engineer_Assigned">
+        <DataField>Project Engineer Assigned</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Inspector_Assigned">
+        <DataField>Inspector Assigned</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Present_Crossing_Status">
+        <DataField>Present Crossing Status</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="As_Builts_Requested_Date">
+        <DataField>As Builts Requested Date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="As_Builts_Received_Date">
+        <DataField>As Builts Received Date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="As_Builts_Approved_Date">
+        <DataField>As Builts Approved Date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="As_Builts_Status">
+        <DataField>As Builts Status</DataField>
+        <rd:TypeName>System.Boolean</rd:TypeName>
+      </Field>
+      <Field Name="As_Built_Comments">
+        <DataField>As Built Comments</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="License_Type">
+        <DataField>License Type</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="License_Date_Issued">
+        <DataField>License Date Issued</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="License_Expiration_Date">
+        <DataField>License Expiration Date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="As_Builts_Progress">
+        <DataField>As Builts Progress</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+  <rd:ReportServerUrl>http://keith-alienware/ReportServer</rd:ReportServerUrl>
+</SharedDataSet>

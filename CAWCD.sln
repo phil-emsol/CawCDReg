@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Regulatory Report", "Regulatory Report\Regulatory Report.rptproj", "{7C4915DC-262B-459F-B4C9-AE25E97BEF40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C4915DC-262B-459F-B4C9-AE25E97BEF40}.Debug|Default.ActiveCfg = Debug
+		{7C4915DC-262B-459F-B4C9-AE25E97BEF40}.Debug|Default.Build.0 = Debug
+		{7C4915DC-262B-459F-B4C9-AE25E97BEF40}.Debug|Default.Deploy.0 = Debug
+		{7C4915DC-262B-459F-B4C9-AE25E97BEF40}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{7C4915DC-262B-459F-B4C9-AE25E97BEF40}.DebugLocal|Default.Build.0 = DebugLocal
+		{7C4915DC-262B-459F-B4C9-AE25E97BEF40}.Release|Default.ActiveCfg = Release
+		{7C4915DC-262B-459F-B4C9-AE25E97BEF40}.Release|Default.Build.0 = Release
+		{7C4915DC-262B-459F-B4C9-AE25E97BEF40}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B45D700-5C1E-4AB8-9D2D-BFBCCD7E3D32}
+	EndGlobalSection
+EndGlobal

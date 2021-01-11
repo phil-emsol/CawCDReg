@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>Landcases</DataSourceReference>
+      <CommandText>SELECT
+  qryExportCasesUnderConstruction.[Case Status]
+  ,qryExportCasesUnderConstruction.[CAWCD Case Number]
+  ,qryExportCasesUnderConstruction.[Requesting Agency or Group]
+  ,qryExportCasesUnderConstruction.[Description and Location of Crossing Request]
+  ,qryExportCasesUnderConstruction.[Mile Post]
+  ,qryExportCasesUnderConstruction.[Land Specialist Assigned]
+  ,qryExportCasesUnderConstruction.[Project Engineer Assigned]
+  ,qryExportCasesUnderConstruction.[Inspector Assigned]
+  ,qryExportCasesUnderConstruction.[Present Crossing Status]
+  ,qryExportCasesUnderConstruction.[Construction Status]
+  ,qryExportCasesUnderConstruction.[Construction Actual Start Date]
+  ,qryExportCasesUnderConstruction.[Construction Estimated Percent Complete]
+  ,qryExportCasesUnderConstruction.[Construction Actual Date Completed]
+  ,qryExportCasesUnderConstruction.[License Type]
+  ,qryExportCasesUnderConstruction.[License Date Issued]
+  ,qryExportCasesUnderConstruction.[License Expiration Date]
+FROM
+  qryExportCasesUnderConstruction</CommandText>
+      <rd:DesignerState>
+        <QueryDefinition xmlns="http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational">
+          <SelectedColumns>
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Case Status" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="CAWCD Case Number" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Requesting Agency or Group" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Description and Location of Crossing Request" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Mile Post" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Land Specialist Assigned" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Project Engineer Assigned" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Inspector Assigned" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Present Crossing Status" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Construction Status" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Construction Actual Start Date" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Construction Estimated Percent Complete" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="Construction Actual Date Completed" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="License Type" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="License Date Issued" />
+            <ColumnExpression ColumnOwner="qryExportCasesUnderConstruction" ColumnName="License Expiration Date" />
+          </SelectedColumns>
+        </QueryDefinition>
+      </rd:DesignerState>
+    </Query>
+    <Fields>
+      <Field Name="Case_Status">
+        <DataField>Case Status</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CAWCD_Case_Number">
+        <DataField>CAWCD Case Number</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Requesting_Agency_or_Group">
+        <DataField>Requesting Agency or Group</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Description_and_Location_of_Crossing_Request">
+        <DataField>Description and Location of Crossing Request</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Mile_Post">
+        <DataField>Mile Post</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Land_Specialist_Assigned">
+        <DataField>Land Specialist Assigned</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Project_Engineer_Assigned">
+        <DataField>Project Engineer Assigned</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Inspector_Assigned">
+        <DataField>Inspector Assigned</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Present_Crossing_Status">
+        <DataField>Present Crossing Status</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Construction_Status">
+        <DataField>Construction Status</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Construction_Actual_Start_Date">
+        <DataField>Construction Actual Start Date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="Construction_Estimated_Percent_Complete">
+        <DataField>Construction Estimated Percent Complete</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="Construction_Actual_Date_Completed">
+        <DataField>Construction Actual Date Completed</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="License_Type">
+        <DataField>License Type</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="License_Date_Issued">
+        <DataField>License Date Issued</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="License_Expiration_Date">
+        <DataField>License Expiration Date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+  <rd:ReportServerUrl>http://keith-alienware/ReportServer</rd:ReportServerUrl>
+</SharedDataSet>
